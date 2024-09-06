@@ -12,5 +12,9 @@ def predict():
     prediction = model.predict([data['input']])
     return jsonify({'prediction': int(prediction[0])})
 
+@app.route('/', methods=['GET'])
+def predict():
+    return "Hello World!"
+
 if __name__ == '__main__':
     app.run(debug=True)
