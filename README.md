@@ -6,9 +6,9 @@ This project deploys a machine learning model using Flask on Vercel.
 
 1. Clone the repository
 2. Install dependencies:
-   - pip install -r requirements.txt
+   <code>pip install -r requirements.txt</code>
 3. Run Flask app:
-   - python app.py
+   <code>python app.py</code>
 
 ## Deploying to Vercel
 
